@@ -5,3 +5,7 @@
     border: none;
     text-decoration: none;
 }
+h3 {
+    font-size: 64px;
+    font-weight: 700;
+}

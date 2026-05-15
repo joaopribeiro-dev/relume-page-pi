@@ -30,7 +30,6 @@ a {
     color: white;
 }
 main {
-    /* background-color: black; */
     background-image: url(../assets/images/fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,10 +89,6 @@ button {
 
     color: white;
 }
-.servico-text > h3 {
-    font-size: 64px;
-    font-weight: 700;
-}
 .servico-text > p {
     font-size: 24px;
 }
@@ -109,5 +104,103 @@ button {
     padding: 15px;
 }
 .servico-fundo {
+    background-image: url(../assets/images/fundo-servico.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 875px;
+
+    display: flex;
+    justify-content: space-around;
+
+    padding: 100px;
+}
+.card-text-1 {
     background-color: black;
+    border-radius: 25px;
+
+    padding: 10px 20px;
+}
+.card-text-2 {
+    background-color: black;
+    border-radius: 25px;
+
+    padding: 10px 20px;
+}
+h4 {
+    font-size: 38px;
+    font-weight: 700;
+    
+    color: white;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 30px;
+}
+li {
+    font-size: 18px;
+    font-weight: 400;
+
+    color: white;
+}
+.galeria {
+    background-color: black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px;
+}
+.galeria-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
+
+    color: white;
+}
+.galeria-text > p {
+    font-size: 24px;
+}
+.galeria-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.galeria-nav > nav {
+    display: flex;
+    gap: 40px;
+
+    padding: 15px;
+}
+.galeria-fundo {
+    background-color: rgb(61, 61, 61);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 675px;
+
+    gap: 100px;
+}
+.galeria-car {
+    background-color: black;
+
+    padding: 75px 125px;
+}
+.car-1-2 {
+    display: flex;
+    gap: 250px;
+}
+.car-3-4 {
+    display: flex;
+    gap: 250px;
 }
